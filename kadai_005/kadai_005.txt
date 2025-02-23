@@ -1,0 +1,28 @@
+PS C:\Users\yasuk\OneDrive\デスクトップ\HTML_CSS> cd C:\Users\yasuk\OneDrive\デスクトップ\samurai
+PS C:\Users\yasuk\OneDrive\デスクトップ\samurai> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\yasuk\OneDrive\デスクトップ\samurai
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/02/23     14:42                git_challenge     
+
+
+PS C:\Users\yasuk\OneDrive\デスクトップ\samurai> cd C:\Users\yasuk\OneDrive\デスクトップ\samurai\git_challenge
+PS C:\Users\yasuk\OneDrive\デスクトップ\samurai\git_challenge> git init
+Initialized empty Git repository in C:/Users/yasuk/OneDrive/デスクト ップ/samurai/git_challenge/.git/
+PS C:\Users\yasuk\OneDrive\デスクトップ\samurai\git_challenge> git add C:\Users\yasuk\OneDrive\デスクトップ\samurai\git_challenge
+PS C:\Users\yasuk\OneDrive\デスクトップ\samurai\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 3c6135c] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\yasuk\OneDrive\デスクトップ\samurai\git_challenge> git add C:\Users\yasuk\OneDrive\デスクトップ\samurai\git_challenge
+PS C:\Users\yasuk\OneDrive\デスクトップ\samurai\git_challenge> git commit -m "日本語訳を追記"
+[main 4ae7e11] 日本語訳を追記
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+PS C:\Users\yasuk\OneDrive\デスクトップ\samurai\git_challenge> git log --oneline
+4ae7e11 (HEAD -> main) 日本語訳を追記
+3c6135c hello_world.txtを追加
+PS C:\Users\yasuk\OneDrive\デスクトップ\samurai\git_challenge> 
